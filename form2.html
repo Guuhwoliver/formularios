@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="Form.CSS">
+</head>
+<!--para organizar o documento basta usar o shift+alt+F-->
+
+<body>
+    <nav>
+        <a href="form2.html"><button type="button">FREEDBACK</button></a>
+    </nav>
+    <header>
+        <h2>Cadastre-se aqui</h2>
+        <section>
+            <form method="post" action="#">
+                <label>
+                    <fieldset>
+                        <legend>Dados pessoais</legend>
+                        Nome: <br>
+                        <input type="text" placeholder="Nome" required>
+                        Sobre Nome:<br>
+                        <input type="text" placeholder="Sobre Nome" required>
+                        Nacimento:<br>
+                        <input type="date" required><br>
+                        CPF:<br>
+                        <input type="text" placeholder="999.999.999-00" required><br>
+                        RG:<br>
+                        <input type="text" placeholder="99.999.999-0">
+                        Email:<br>
+                        <input type="email" placeholder="joaosilva@">
+                        <select name="Genero">
+                            <option value="Heterosexual">Heterosexual</option>
+                            <option value="Homosexual">Homosexual</option>
+                            <option value="Trangenero">Trangenero</option>
+                            <option value="não informar">Não informar</option>
+                        </select>
+                </label>
+                </fieldset>
+                <label>
+                    <fieldset>
+                        <legend>Dados Adicionais</legend>
+                        Endereço:
+                        <textarea id="emdereço">AV. Brasil - Nº12 - Cidade - estado</textarea><br>
+                        CEP:<br>
+                        <input type="text" placeholder="11111-111"><br>
+                        Nome da mãe:<br>
+                        <input type="text" placeholder="Maria José" required><br>
+                        Nome do pai: <br>
+                        <input type="text" placeholder="José Maria">
+                        Estado Civil: <br>
+                        <select name="Estado Civil">
